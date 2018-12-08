@@ -1,0 +1,191 @@
+
+@media screen and (min-width : 768px) {
+    .browser{
+        position:fixed;
+        margin-left:-8%;
+        margin-top: -2%;
+        text-align: center;
+    }
+    .results_browser{
+        margin-left:40%;
+        margin-top:2rem;
+    }
+    #slider-price_range{
+        margin-top: 1.5rem;
+    }
+}
+
+
+ @media screen and (max-width : 768px) {
+
+    
+}
+
+thead{
+    background-color:#d0e1e1;
+}
+tbody{
+    background-color:#e0ebeb;
+}
+
+
+
+.event-list{
+    background-color:#ccffff;
+    border-radius: 80px;
+
+}
+.event-list-border{
+    background-color: #ccffff;
+    border-radius: 80px;
+
+}
+
+body {
+  margin-top: 6rem;
+  background:url(/images/Sports.png);
+
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+
+@keyframes example {				/*navbar brand*/	
+    from {color: white;}
+    to {color: grey;}
+    
+}
+.navbar-brand:hover{			/*navbar brand*/
+animation-name: example;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.navbar-right>li{
+	margin-right:1.5rem;
+}
+
+
+
+.center{			/* dla logowania formluarzu i inne */
+	margin: 0 auto;
+}
+.right{
+	margin-margin-left:50%;
+	float:right;
+}
+.margin-left{
+	margin-right:50%;
+	float:margin-left;
+}
+
+.options {			/* dla opcji rezerwacji,  */
+	margin: 0 auto; 
+	padding-top:4rem;
+}
+
+.options>form>.button_option{		/* dla opcji rezerwacji - buttony,  */
+	margin-top:20px;
+	font-size:25px;
+	text-align:center;
+	padding-bottom:2rem;
+	padding-top:2rem;
+}
+
+.options>form>.button_sportcenter_options{		/* dla sportcenter*/
+	margin-top:20px;
+	font-size:25px;
+	text-align:center;
+
+}
+
+
+.footer{
+	margin-top: 5rem;
+}
+
+
+
+.special_font{
+    color:#009933;
+    font-weight: 700;
+}
+
+
+.offset-1 {
+    margin-left: calc(100% / 12 * 1);
+}
+.offset-2 {
+    margin-left: calc(100% / 12 * 2);
+}
+.offset-3 {
+    margin-left: calc(100% / 12 * 3);
+}
+.offset-4 {
+    margin-left: calc(100% / 12 * 4);
+}
+.offset-5 {
+    margin-left: calc(100% / 12 * 5);
+}
+.offset-6 {
+    margin-left: calc(100% / 12 * 6);
+}
+.offset-7 {
+    margin-left: calc(100% / 12 * 7);
+}
+.offset-8 {
+    margin-left: calc(100% / 12 * 8);
+}
+.offset-9 {
+    margin-left: calc(100% / 12 * 9);
+}
+.offset-10 {
+    margin-left: calc(100% / 12 * 10);
+}
+.offset-11 {
+    margin-left: calc(100% / 12 * 1);
+}
+.offset-12 {
+    margin-left: calc(100% / 12 * 12);
+}
+
+
+.pull-1 {
+    margin-right: calc(100% / 12 * 1);
+}
+.pull-2 {
+    margin-right: calc(100% / 12 * 2);
+}
+.pull-3 {
+    margin-right: calc(100% / 12 * 3);
+}
+.pull-4 {
+    margin-right: calc(100% / 12 * 4);
+}
+.pull-5 {
+    margin-right: calc(100% / 12 * 5);
+}
+.pull-6 {
+    margin-right: calc(100% / 12 * 6);
+}
+.pull-7 {
+    margin-right: calc(100% / 12 * 7);
+}
+.pull-8 {
+    margin-right: calc(100% / 12 * 8);
+}
+.pull-9 {
+    margin-right: calc(100% / 12 * 9);
+}
+.pull-10 {
+    margin-right: calc(100% / 12 * 10);
+}
+.pull-11 {
+    margin-right: calc(100% / 12 * 1);
+}
+.pull-12 {
+    margin-right: calc(100% / 12 * 12);
+}
