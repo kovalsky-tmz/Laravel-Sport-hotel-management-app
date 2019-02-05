@@ -1,9 +1,11 @@
 Laravel app for sport hotel management
 
-Requirements:<br>
-Php<br>
-Laravel<br>
-Web server <br>
-MySQL <br>
+Requirements:<br><ul>
+  
+<li>Php
+<li>Laravel
+<li>Web server 
+<li>MySQL 
 
-First create database 
+Firstly import database "szkoleniowy_osrodek_sportowy.sql", next seed example admin to table users by command "php artisan db:seed".<br>
+Finally run app by command "php artisan serve".
