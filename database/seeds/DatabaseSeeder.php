@@ -12,13 +12,14 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         DB::table('users')->insert([
-            'email' => 'email@email.com',
-            'password' => bcrypt('test'),// ALBO bcrypt
+            'email' => 'admin@mail.com',
+            'password' => bcrypt('admin'),// ALBO bcrypt
             'first_name' => 'test',
             'last_name' => 'test',
             'phone' => '555444333',
             'city' => 'Tak',
-            'role' => 'admin',
+			'role' => 'admin',
+			'confirmed' => 1,
             'confirmation_code' => 1
         ]);
     }
