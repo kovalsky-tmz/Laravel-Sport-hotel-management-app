@@ -8,6 +8,7 @@ Requirements:<br><ul>
 <li>MySQL 
 
 Firstly import database "szkoleniowy_osrodek_sportowy.sql", next create example admin to table users by command "php artisan db:seed".<br>
+Admin account - Email: admin@mail.com, password: admin <br>
 Finally run app by command "php artisan serve".<br>
 <li>Simple Sample of Api</li>
 POST /api/loginn -> token data={'email','password'} <br>
