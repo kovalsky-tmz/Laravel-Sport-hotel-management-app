@@ -1,15 +1,11 @@
-Laravel app for sport hotel management
+<h2>Laravel app for sport hotel management<h2>
 
-Requirements:<br><ul>
-  
-<li>Php
-<li>Laravel
-<li>Web server 
-<li>MySQL 
-
+<b>Requirements:</b> Php, Laravel, Web server, MySQL
+<p>
 Firstly import database "szkoleniowy_osrodek_sportowy.sql", next create example admin to table users by command "php artisan db:seed".<br>
-Admin account - Email: admin@mail.com, password: admin <br>
-Finally run app by command "php artisan serve".<br>
-<li>Simple Sample of Api</li>
-POST /api/loginn -> token data={'email','password'} <br>
-GET /api/user -> set auth bearer token
+  <b>Admin account</b> - Email: admin@mail.com, password: admin <br>
+  Finally run app by command "<code>php artisan serve</code>".<br>
+  </p>
+<h4>Simple Sample of Api:</h4>
+POST /api/loginn -> get token, data={'email','password'} <br>
+GET /api/user -> bearer token required
