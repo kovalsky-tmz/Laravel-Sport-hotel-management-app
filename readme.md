@@ -1,4 +1,4 @@
-<h2>Laravel app for sport hotel management<h2>
+<h2>Laravel app for sport hotel management</h2>
 
 <b>Requirements:</b> Php, Laravel, Web server, MySQL
 <p>
